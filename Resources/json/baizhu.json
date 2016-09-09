@@ -1,0 +1,9 @@
+{
+  "name":"baizhu",
+  "HP":100,
+  "damage": 100,
+  "speed":15,
+  "state": "jump",
+  "hit_effect": "music/0100122.Damage.mp3",
+  "die_effect": "music/0100122.Die.mp3"
+}

@@ -1,0 +1,7 @@
+﻿  AppDelegate.cpp
+  MyHelloWorldScene.cpp
+f:\cocos2d\cocos2d-x-3.11.1\projects\first\temp2\classes\myhelloworldscene.cpp(11): warning C4996: 'cocos2d::ccp': 被声明为已否决
+  f:\cocos2d\cocos2d-x-3.11.1\projects\first\cocos2d\cocos\deprecated\ccdeprecated.h(49): note: 参见“cocos2d::ccp”的声明
+f:\cocos2d\cocos2d-x-3.11.1\projects\first\temp2\classes\appdelegate.cpp(55): warning C4305: “参数”: 从“double”到“float”截断
+  temp2.vcxproj -> F:\cocos2d\cocos2d-x-3.11.1\projects\first\proj.win32\Debug.win32\temp2.exe
+  0 File(s) copied

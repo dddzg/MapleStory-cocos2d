@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景">
+      <UniqueIdentifier>{1e8e87ba-607c-4bc4-b197-c8e3bccd4bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体">
+      <UniqueIdentifier>{8931fd9e-8999-4251-95ce-16448f405d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="控制器">
+      <UniqueIdentifier>{afd9fa24-3a00-4776-83ba-b27bca7b089a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="控制器\怪物控制器">
+      <UniqueIdentifier>{d3969c2b-8e10-4ccd-89c2-187add798e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主角">
+      <UniqueIdentifier>{23d57337-2241-4416-9a01-5d636c5f565f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="技能">
+      <UniqueIdentifier>{ad7add55-dfa8-404a-b9db-f8c43d1af743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物管理器">
+      <UniqueIdentifier>{89a97a1f-62f1-405b-aa4c-24ae3a8d1cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{ceea9ab0-a200-4bad-a04f-5a82de768927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="编码">
+      <UniqueIdentifier>{3923b117-d4ca-46e3-b27c-6c97ae492302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\场景管理器">
+      <UniqueIdentifier>{2876b40b-78ef-4cab-a4c6-43555b5d3405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\主场景层">
+      <UniqueIdentifier>{7eac85d2-2c3c-439b-a810-a5c454c915c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\登陆场景">
+      <UniqueIdentifier>{7ba7c9ca-83d3-44a9-ba92-6d485ddb0e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\玩家信息单例">
+      <UniqueIdentifier>{8c113d80-67a3-4e30-ac70-d4c26cb28473}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>实体</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterController.cpp">
+      <Filter>控制器\怪物控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>主角</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillInf.cpp">
+      <Filter>技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillEffect.cpp">
+      <Filter>技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterMgr.cpp">
+      <Filter>怪物管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BallSkillMgr.cpp">
+      <Filter>技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BoomSkillMgr.cpp">
+      <Filter>技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillMgr.cpp">
+      <Filter>技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JSON\json_reader.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JSON\json_value.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JSON\json_writer.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerInfo.cpp">
+      <Filter>场景\主场景层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneManager.cpp">
+      <Filter>场景\场景管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\login.cpp">
+      <Filter>场景\登陆场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Infomation.cpp">
+      <Filter>场景\玩家信息单例</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterController.h">
+      <Filter>控制器\怪物控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>主角</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillInf.h">
+      <Filter>技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillEffect.h">
+      <Filter>技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterMgr.h">
+      <Filter>怪物管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BallSkillMgr.h">
+      <Filter>技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BoomSkillMgr.h">
+      <Filter>技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillMgr.h">
+      <Filter>技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\autolink.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\config.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\features.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\forwards.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\json_batchallocator.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\reader.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\value.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\writer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GB23122Utf8.h">
+      <Filter>编码</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerInfo.h">
+      <Filter>场景\主场景层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneManager.h">
+      <Filter>场景\场景管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\login.h">
+      <Filter>场景\登陆场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Infomation.h">
+      <Filter>场景\玩家信息单例</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\JSON\json_internalarray.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="..\Classes\JSON\json_internalmap.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="..\Classes\JSON\json_valueiterator.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="..\Classes\JSON\sconscript">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>

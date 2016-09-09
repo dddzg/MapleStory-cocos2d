@@ -1,0 +1,47 @@
+{
+  "Q": {
+    "range": {
+      "x": 150,
+      "y": 40
+    },
+    "damage": {
+      "base": 80,
+      "change": 20
+    },
+    "file": "attack.info.",
+    "cd": 1.5,
+    "use_effect": "music/5821005.Use.mp3",
+    "hit_effect": "music/5821005.Hit.mp3"
+  },
+  "W": {
+    "range": {
+      "x": 200,
+      "y": 200
+    },
+    "damage": {
+      "base": 100,
+      "change": 50
+    },
+    "file": "attack2.info.",
+    "cd": 4,
+    "use_effect": "music/5711001.Use.wav",
+    "hit_effect": "music/5711001.Hit.wav"
+  },
+  "E": {
+    "range": {
+      "x": 400,
+      "y": 300
+    },
+    "damage": {
+      "base": 200,
+      "change": 50
+    },
+    "file": "attack3.",
+    "cd": 8,
+    "use_effect": "music/11101220.Use.wav",
+    "hit_effect": "music/11101120.Hit.wav"
+  },
+  "jump_effect": "music/Jump.mp3",
+  "die_effect": "music/Tombstone.mp3",
+  "hit_effect": "music/ElectrickDam.mp3"
+}
